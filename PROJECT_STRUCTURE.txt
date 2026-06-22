@@ -1,0 +1,16 @@
+.gitignore
+.editorconfig
+Makefile
+scripts/setup-environment.sh
+scripts/install-dependencies.sh
+scripts/build-distro.sh
+scripts/create-iso.sh
+scripts/test-qemu.sh
+build/CMakeLists.txt
+kernel/CMakeLists.txt
+kernel/include/kernel.h
+kernel/src/boot.c
+kernel/src/memory.c
+kernel/src/process.c
+kernel/src/interrupt.c
+kernel/src/filesystem.c
